@@ -1,9 +1,9 @@
 package com.autotest.pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -16,17 +16,14 @@ public class LoginPage extends BasePage {
 	private WebElement txt_Password;
 
 	@FindBy(id = "btnLogin")
-	private WebElement btn_Login;
-
-	@FindBy(xpath = "//*[@id=\"welcome\"]")
-	private WebElement lnk_Welcome;
-
-	@FindBy(xpath = "//a[contains(text(),'Logout')]")
-	private WebElement lnk_LogOut;
+	private WebElement btn_Login;	
+	
+	@Value("${application.url}")
+	private String appURL;
 
 	@Override
 	public boolean isAt() {
-		webDriverWait.until(ExpectedConditions.visibilityOfElementLocated((By) txt_UserName));
+		webDriverWait.until(ExpectedConditions.visibilityOf(txt_UserName));
 		if (txt_UserName.isDisplayed()) {
 			return true;
 		} else {
@@ -36,7 +33,7 @@ public class LoginPage extends BasePage {
 
 	public void Launch() {
 		driver.manage().window().maximize();
-		driver.get("https://opensource-demo.orangehrmlive.com/");		
+		driver.get(appURL);		
 	}
 
 	public void login(String userName, String password) {
@@ -45,15 +42,7 @@ public class LoginPage extends BasePage {
 		btn_Login.click();
 	}
 
-	public void logout() throws InterruptedException {
-		Thread.sleep(10000);
-
-		lnk_Welcome.click();
-
-		Thread.sleep(10000);
-
-		lnk_LogOut.click();
-	}
+	
 	
 	public void close() {
 		driver.quit();

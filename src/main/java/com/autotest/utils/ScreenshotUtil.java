@@ -18,22 +18,17 @@ public class ScreenshotUtil {
 	@Autowired 
 	TakesScreenshot driver;
 	
+	@Autowired
+	private FileUtil fileUtil;
+	
 	@Value("${screenshot.path}")
 	private Path filePath;
 	
 	private String fileName;
 	
 	public void takeScreenshot() throws IOException {
-		fileName=getDateTime() + "_img.png";
+		fileName=fileUtil.getRandomFileName() + "_img.png";
 		File soureFile=driver.getScreenshotAs(OutputType.FILE);
 		FileCopyUtils.copy(soureFile, filePath.resolve(fileName).toFile());
-	}
-	
-	public String getDateTime() {
-		SimpleDateFormat formatter = new SimpleDateFormat("dd_MM_yyyy_HH_mm_ss");  
-	    Date date = new Date();  
-	    return formatter.format(date).toString();  
-	}
-	
-	
+	}	
 }
