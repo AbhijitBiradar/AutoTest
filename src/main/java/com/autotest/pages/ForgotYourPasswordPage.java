@@ -4,6 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import com.autotest.annotations.Page;
+
+@Page
 public class ForgotYourPasswordPage extends BasePage{
 
 	@FindBy(xpath ="//input[@id='securityAuthentication_userName']")

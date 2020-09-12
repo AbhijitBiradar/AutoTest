@@ -5,7 +5,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.springframework.stereotype.Component;
 
-@Component
+import com.autotest.annotations.Page;
+
+@Page
 public class HomePage extends BasePage{
 
 	@FindBy(xpath = "//*[@id=\"welcome\"]")

@@ -6,7 +6,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component
+import com.autotest.annotations.Page;
+
+@Page
 public class LoginPage extends BasePage {
 
 	@FindBy(id = "txtUsername")

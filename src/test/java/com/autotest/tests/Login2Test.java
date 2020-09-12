@@ -3,7 +3,6 @@ package com.autotest.tests;
 import java.io.IOException;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Lazy;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,7 +11,7 @@ import com.autotest.pages.HomePage;
 import com.autotest.pages.LoginPage;
 import com.autotest.utils.ScreenshotUtil;
 
-public class LoginTest extends BaseTest{
+public class Login2Test extends BaseTest{
 	
 	@LazyAutowired
 	private LoginPage loginPage;
