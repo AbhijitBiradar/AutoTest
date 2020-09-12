@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="67660" started-at="2020-09-12T09:37:02 IST" finished-at="2020-09-12T09:38:09 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="67660" started-at="2020-09-12T09:37:02 IST" finished-at="2020-09-12T09:38:09 IST">
+      <class name="com.autotest.tests.LoginTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.autotest.tests.LoginTest@178213b]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="27" started-at="2020-09-12T09:37:02 IST" finished-at="2020-09-12T09:37:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.autotest.tests.LoginTest@178213b]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="9129" started-at="2020-09-12T09:37:02 IST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-09-12T09:37:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.autotest.tests.LoginTest@178213b]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="6" started-at="2020-09-12T09:37:11 IST" finished-at="2020-09-12T09:37:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.autotest.tests.LoginTest.loginTestValidUser() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="loginTestValidUser()[pri:0, instance:com.autotest.tests.LoginTest@178213b]" name="loginTestValidUser" duration-ms="58426" started-at="2020-09-12T09:37:11 IST" finished-at="2020-09-12T09:38:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestValidUser -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.autotest.tests.LoginTest@178213b]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2020-09-12T09:38:09 IST" finished-at="2020-09-12T09:38:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.autotest.tests.LoginTest.loginTestValidUser() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.autotest.tests.LoginTest@178213b]" name="springTestContextAfterTestClass" is-config="true" duration-ms="5" started-at="2020-09-12T09:38:09 IST" finished-at="2020-09-12T09:38:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.autotest.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
