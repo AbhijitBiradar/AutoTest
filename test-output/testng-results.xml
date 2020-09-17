@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="spring-boot" duration-ms="82878" started-at="2020-09-12T21:48:17 IST" finished-at="2020-09-12T21:49:39 IST">
+  <suite name="spring-boot" duration-ms="87561" started-at="2020-09-17T18:21:37 IST" finished-at="2020-09-17T18:23:04 IST">
     <groups>
     </groups>
-    <test name="test-1" duration-ms="48629" started-at="2020-09-12T21:48:17 IST" finished-at="2020-09-12T21:49:05 IST">
+    <test name="test-1" duration-ms="56103" started-at="2020-09-17T18:21:37 IST" finished-at="2020-09-17T18:22:33 IST">
       <class name="com.autotest.tests.LoginTest">
-        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.autotest.tests.LoginTest@13b13b5d]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="22" started-at="2020-09-12T21:48:17 IST" finished-at="2020-09-12T21:48:17 IST">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.autotest.tests.LoginTest@355ce81c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="20" started-at="2020-09-17T18:21:37 IST" finished-at="2020-09-17T18:21:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.autotest.tests.LoginTest@13b13b5d]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2833" started-at="2020-09-12T21:48:17 IST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-09-12T21:48:19 IST">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.autotest.tests.LoginTest@355ce81c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2584" started-at="2020-09-17T18:21:37 IST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-09-17T18:21:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.autotest.tests.LoginTest@13b13b5d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="5" started-at="2020-09-12T21:48:19 IST" finished-at="2020-09-12T21:48:19 IST">
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.autotest.tests.LoginTest@355ce81c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="12" started-at="2020-09-17T18:21:39 IST" finished-at="2020-09-17T18:21:40 IST">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="loginTestValidUser()[pri:0, instance:com.autotest.tests.LoginTest@13b13b5d]" name="loginTestValidUser" duration-ms="45648" started-at="2020-09-12T21:48:19 IST" finished-at="2020-09-12T21:49:05 IST">
+        <test-method status="PASS" signature="loginTestValidUser()[pri:0, instance:com.autotest.tests.LoginTest@355ce81c]" name="loginTestValidUser" duration-ms="53339" started-at="2020-09-17T18:21:40 IST" finished-at="2020-09-17T18:22:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestValidUser -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.autotest.tests.LoginTest@13b13b5d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="5" started-at="2020-09-12T21:49:05 IST" finished-at="2020-09-12T21:49:05 IST">
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.autotest.tests.LoginTest@355ce81c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="4" started-at="2020-09-17T18:22:33 IST" finished-at="2020-09-17T18:22:33 IST">
           <params>
             <param index="0">
               <value>
@@ -41,23 +41,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.autotest.tests.LoginTest@13b13b5d]" name="springTestContextAfterTestClass" is-config="true" duration-ms="4" started-at="2020-09-12T21:49:05 IST" finished-at="2020-09-12T21:49:05 IST">
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.autotest.tests.LoginTest@355ce81c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="2" started-at="2020-09-17T18:22:33 IST" finished-at="2020-09-17T18:22:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestClass -->
       </class> <!-- com.autotest.tests.LoginTest -->
     </test> <!-- test-1 -->
-    <test name="test-2" duration-ms="34077" started-at="2020-09-12T21:49:05 IST" finished-at="2020-09-12T21:49:39 IST">
+    <test name="test-2" duration-ms="31090" started-at="2020-09-17T18:22:33 IST" finished-at="2020-09-17T18:23:04 IST">
       <class name="com.autotest.tests.Login2Test">
-        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.autotest.tests.Login2Test@e7edb54]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="2" started-at="2020-09-12T21:49:05 IST" finished-at="2020-09-12T21:49:05 IST">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.autotest.tests.Login2Test@3738449f]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2020-09-17T18:22:33 IST" finished-at="2020-09-17T18:22:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.autotest.tests.Login2Test@e7edb54]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="16" started-at="2020-09-12T21:49:05 IST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-09-12T21:49:05 IST">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.autotest.tests.Login2Test@3738449f]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="10" started-at="2020-09-17T18:22:33 IST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-09-17T18:22:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.autotest.tests.Login2Test@e7edb54]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2020-09-12T21:49:05 IST" finished-at="2020-09-12T21:49:05 IST">
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.autotest.tests.Login2Test@3738449f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2020-09-17T18:22:33 IST" finished-at="2020-09-17T18:22:33 IST">
           <params>
             <param index="0">
               <value>
@@ -68,11 +68,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="loginTestValidUser()[pri:0, instance:com.autotest.tests.Login2Test@e7edb54]" name="loginTestValidUser" duration-ms="34047" started-at="2020-09-12T21:49:05 IST" finished-at="2020-09-12T21:49:39 IST">
+        <test-method status="PASS" signature="loginTestValidUser()[pri:0, instance:com.autotest.tests.Login2Test@3738449f]" name="loginTestValidUser" duration-ms="31070" started-at="2020-09-17T18:22:33 IST" finished-at="2020-09-17T18:23:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestValidUser -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.autotest.tests.Login2Test@e7edb54]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-09-12T21:49:39 IST" finished-at="2020-09-12T21:49:39 IST">
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.autotest.tests.Login2Test@3738449f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2020-09-17T18:23:04 IST" finished-at="2020-09-17T18:23:04 IST">
           <params>
             <param index="0">
               <value>
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.autotest.tests.Login2Test@e7edb54]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-09-12T21:49:39 IST" finished-at="2020-09-12T21:49:39 IST">
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.autotest.tests.Login2Test@3738449f]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2020-09-17T18:23:04 IST" finished-at="2020-09-17T18:23:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestClass -->

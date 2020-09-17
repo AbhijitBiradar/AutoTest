@@ -3,10 +3,10 @@ package com.autotest.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.autotest.annotations.Page;
+import com.autotest.config.AutomationProperties;
 
 @Page
 public class LoginPage extends BasePage {
@@ -19,9 +19,9 @@ public class LoginPage extends BasePage {
 
 	@FindBy(id = "btnLogin")
 	private WebElement btn_Login;	
-	
-	@Value("${application.url}")
-	private String appURL;
+		
+	@Autowired
+	private AutomationProperties properties;
 
 	@Override
 	public boolean isAt() {
@@ -35,7 +35,7 @@ public class LoginPage extends BasePage {
 
 	public void Launch() {
 		driver.manage().window().maximize();
-		driver.get(appURL);		
+		driver.get(properties.getAppURL());		
 	}
 
 	public void login(String userName, String password) {
@@ -43,8 +43,6 @@ public class LoginPage extends BasePage {
 		txt_Password.sendKeys(password);
 		btn_Login.click();
 	}
-
-	
 	
 	public void close() {
 		driver.quit();
