@@ -1,93 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="spring-boot" duration-ms="87561" started-at="2020-09-17T18:21:37 IST" finished-at="2020-09-17T18:23:04 IST">
+  <suite name="Default suite" duration-ms="40941" started-at="2020-09-19T11:29:49Z" finished-at="2020-09-19T11:30:30Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.autotest.steps.CucumberRunner@6ddf90b0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="test-1" duration-ms="56103" started-at="2020-09-17T18:21:37 IST" finished-at="2020-09-17T18:22:33 IST">
-      <class name="com.autotest.tests.LoginTest">
-        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.autotest.tests.LoginTest@355ce81c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="20" started-at="2020-09-17T18:21:37 IST" finished-at="2020-09-17T18:21:37 IST">
+    <test name="Default test" duration-ms="40941" started-at="2020-09-19T11:29:49Z" finished-at="2020-09-19T11:30:30Z">
+      <class name="com.autotest.steps.CucumberRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.autotest.steps.CucumberRunner@6ddf90b0]" name="setUpClass" is-config="true" duration-ms="472" started-at="2020-09-19T11:29:49Z" finished-at="2020-09-19T11:29:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.autotest.tests.LoginTest@355ce81c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2584" started-at="2020-09-17T18:21:37 IST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-09-17T18:21:39 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.autotest.tests.LoginTest@355ce81c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="12" started-at="2020-09-17T18:21:39 IST" finished-at="2020-09-17T18:21:40 IST">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.autotest.steps.CucumberRunner@6ddf90b0]" name="runScenario" duration-ms="40397" started-at="2020-09-19T11:29:49Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-19T11:30:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.autotest.tests.LoginTest.loginTestValidUser() throws java.lang.InterruptedException,java.io.IOException]]>
+                <![CDATA["I want to login to HRM Appliation with valid credential"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HRM Login"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="loginTestValidUser()[pri:0, instance:com.autotest.tests.LoginTest@355ce81c]" name="loginTestValidUser" duration-ms="53339" started-at="2020-09-17T18:21:40 IST" finished-at="2020-09-17T18:22:33 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTestValidUser -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.autotest.tests.LoginTest@355ce81c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="4" started-at="2020-09-17T18:22:33 IST" finished-at="2020-09-17T18:22:33 IST">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.autotest.steps.CucumberRunner@6ddf90b0]" name="runScenario" duration-ms="31993" started-at="2020-09-19T11:29:49Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-19T11:30:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.autotest.tests.LoginTest.loginTestValidUser() throws java.lang.InterruptedException,java.io.IOException]]>
+                <![CDATA["I want to login to HRM Appliation with Invalid Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HRM Login"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.autotest.tests.LoginTest@355ce81c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="2" started-at="2020-09-17T18:22:33 IST" finished-at="2020-09-17T18:22:33 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextAfterTestClass -->
-      </class> <!-- com.autotest.tests.LoginTest -->
-    </test> <!-- test-1 -->
-    <test name="test-2" duration-ms="31090" started-at="2020-09-17T18:22:33 IST" finished-at="2020-09-17T18:23:04 IST">
-      <class name="com.autotest.tests.Login2Test">
-        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.autotest.tests.Login2Test@3738449f]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2020-09-17T18:22:33 IST" finished-at="2020-09-17T18:22:33 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.autotest.tests.Login2Test@3738449f]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="10" started-at="2020-09-17T18:22:33 IST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-09-17T18:22:33 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.autotest.tests.Login2Test@3738449f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2020-09-17T18:22:33 IST" finished-at="2020-09-17T18:22:33 IST">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.autotest.steps.CucumberRunner@6ddf90b0]" name="runScenario" duration-ms="30890" started-at="2020-09-19T11:29:49Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-19T11:30:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.autotest.tests.Login2Test.loginTestValidUser() throws java.lang.InterruptedException,java.io.IOException]]>
+                <![CDATA["I want to login to HRM Appliation with Invalid User Name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HRM Login"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="loginTestValidUser()[pri:0, instance:com.autotest.tests.Login2Test@3738449f]" name="loginTestValidUser" duration-ms="31070" started-at="2020-09-17T18:22:33 IST" finished-at="2020-09-17T18:23:04 IST">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.autotest.steps.CucumberRunner@6ddf90b0]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2020-09-19T11:30:30Z" finished-at="2020-09-19T11:30:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTestValidUser -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.autotest.tests.Login2Test@3738449f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2020-09-17T18:23:04 IST" finished-at="2020-09-17T18:23:04 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.autotest.tests.Login2Test.loginTestValidUser() throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.autotest.tests.Login2Test@3738449f]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2020-09-17T18:23:04 IST" finished-at="2020-09-17T18:23:04 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextAfterTestClass -->
-      </class> <!-- com.autotest.tests.Login2Test -->
-    </test> <!-- test-2 -->
-  </suite> <!-- spring-boot -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.autotest.steps.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

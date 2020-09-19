@@ -1,0 +1,4 @@
+com\autotest\steps\LoginPageTest.class
+com\autotest\steps\BaseTest.class
+com\autotest\steps\CucumberRunner.class
+com\autotest\steps\Hooks.class

@@ -1,0 +1,51 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-19T05:27:43.226Z",
+        "line": 2,
+        "name": "Could not execute Cucumber",
+        "description": "",
+        "id": "failure;could-not-execute-cucumber",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 0,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Cucumber could not execute",
+            "match": {
+              "arguments": [],
+              "location": "io.cucumber.core.Failure.cucumber_could_not_execute()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 0,
+              "error_message": "io.cucumber.core.backend.CucumberBackendException: Please annotate a glue class with some context configuration.\n\nFor example:\n\n   @CucumberContextConfiguration\n   @SpringBootTest(classes \u003d TestConfig.class)\n   public class CucumberSpringConfiguration { }\nOr: \n\n   @CucumberContextConfiguration\n   @ContextConfiguration( ... )\n   public class CucumberSpringConfiguration { }",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Cucumber will report this error:",
+            "match": {
+              "arguments": [],
+              "location": "io.cucumber.core.Failure.cucumber_reports_this_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test run failed",
+    "description": "There were errors during the execution",
+    "id": "failure",
+    "keyword": "Feature",
+    "uri": "classpath:io/cucumber/core/failure.feature",
+    "tags": []
+  }
+]

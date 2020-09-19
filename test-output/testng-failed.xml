@@ -1,32 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [spring-boot]">
-  <test thread-count="5" name="test-1(failed)">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.autotest.tests.LoginTest">
+      <class name="com.autotest.steps.CucumberRunner">
         <methods>
-          <include name="springTestContextBeforeTestClass"/>
-          <include name="springTestContextPrepareTestInstance"/>
-          <include name="springTestContextAfterTestClass"/>
-          <include name="springTestContextBeforeTestMethod"/>
-          <include name="loginTestValidUser"/>
-          <include name="springTestContextAfterTestMethod"/>
+          <include name="runScenario" invocation-numbers="0 1 2"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- com.autotest.tests.LoginTest -->
+      </class> <!-- com.autotest.steps.CucumberRunner -->
     </classes>
-  </test> <!-- test-1(failed) -->
-  <test thread-count="5" name="test-2(failed)">
-    <classes>
-      <class name="com.autotest.tests.Login2Test">
-        <methods>
-          <include name="springTestContextBeforeTestClass"/>
-          <include name="springTestContextPrepareTestInstance"/>
-          <include name="springTestContextAfterTestClass"/>
-          <include name="springTestContextBeforeTestMethod"/>
-          <include name="loginTestValidUser"/>
-          <include name="springTestContextAfterTestMethod"/>
-        </methods>
-      </class> <!-- com.autotest.tests.Login2Test -->
-    </classes>
-  </test> <!-- test-2(failed) -->
-</suite> <!-- Failed suite [spring-boot] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -19,6 +19,9 @@ public class LoginPage extends BasePage {
 
 	@FindBy(id = "btnLogin")
 	private WebElement btn_Login;	
+	
+	@FindBy(id = "spanMessage")
+	private WebElement lbl_errorMessage;
 		
 	@Autowired
 	private AutomationProperties properties;
@@ -34,8 +37,8 @@ public class LoginPage extends BasePage {
 	}
 
 	public void Launch() {
-		driver.manage().window().maximize();
-		driver.get(properties.getAppURL());		
+		//driver.manage().window().maximize();
+		//driver.get(properties.getAppURL());		
 	}
 
 	public void login(String userName, String password) {
@@ -44,7 +47,25 @@ public class LoginPage extends BasePage {
 		btn_Login.click();
 	}
 	
-	public void close() {
-		driver.quit();
+	public void enterUserName(String userName) {
+		txt_UserName.sendKeys(userName);
+	}	
+	
+	public void enterPassword(String password) {
+		txt_Password.sendKeys(password);
 	}
+	
+	public void clickOnLogin() {
+		btn_Login.click();
+	}
+	
+	public String getInvalidUserErrorMessage() {
+		return lbl_errorMessage.getText().toString();
+	}
+	
+	public void close() {
+		//driver.quit();
+	}
+	
+	
 }
