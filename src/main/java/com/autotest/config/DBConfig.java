@@ -1,7 +1,5 @@
 package com.autotest.config;
 
-import java.nio.file.Path;
-
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
@@ -11,13 +9,17 @@ import lombok.Data;
 @Data
 @Component
 @PropertySource("classpath:configs/application.properties")
-public class AutomationProperties {
-	@Value("${application.url}")
-	private String appURL;
+public class DBConfig {
 	
-	@Value("${screenshot.path}")
-	private Path filePath;
+	@Value("${db.driver}")
+	private String dbDriver;
 	
+	@Value("${db.url}")
+	private String dbURL;
+	
+	@Value("${db.userName}")
+	private String dbUserName;
+	
+	@Value("${db.password}")
+	private String dbPassword;	
 }
-
-
