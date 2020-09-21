@@ -24,7 +24,7 @@ public class Hooks {
 	PropertyUtil propertyUtil;
 	
 	@Before
-	public void openBrowser() {			
+	public void openBrowser() {				
 		driver.manage().window().maximize();
 		driver.get(properties.getAppURL());		
 	}

@@ -15,7 +15,7 @@ import io.cucumber.testng.CucumberOptions;
 public class CucumberRunner extends AbstractTestNGCucumberTests {
 
 	@Override
-	@DataProvider(parallel = true)
+	@DataProvider(parallel = false)
 	public Object[][] scenarios() {
 		return super.scenarios();
 	}

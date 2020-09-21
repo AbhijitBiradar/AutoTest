@@ -10,9 +10,9 @@ import lombok.Data;
 @Component
 @PropertySource("classpath:configs/application.properties")
 public class DBConfig {
-	
+		
 	@Value("${db.driver}")
-	private String dbDriver;
+	private String dbDriver;	
 	
 	@Value("${db.url}")
 	private String dbURL;
