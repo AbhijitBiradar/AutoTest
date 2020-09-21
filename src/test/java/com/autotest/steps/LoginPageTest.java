@@ -6,6 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.testng.Assert;
 
 import com.autotest.annotations.LazyAutowired;
+import com.autotest.pages.ForgotYourPasswordPage;
 import com.autotest.pages.HomePage;
 import com.autotest.pages.LoginPage;
 import com.autotest.utils.ScreenshotUtil;
@@ -24,6 +25,9 @@ public class LoginPageTest {
 
 	@LazyAutowired
 	private ScreenshotUtil screenshotUtil;
+	
+	@LazyAutowired
+	private ForgotYourPasswordPage forgotYourPasswordPage;
 
 	@Given("I am on HRM Login page")
 	public void i_am_on_HRM_Login_page() throws IOException {		
@@ -65,6 +69,12 @@ public class LoginPageTest {
 	    screenshotUtil.takeScreenshot();
 	    
 	    loginPage.close();
+	}
+	
+	@When("I click on Forgot Your Password link")
+	public void i_click_on_Forgot_Your_Password_link() throws Exception {
+		screenshotUtil.takeScreenshot();
+		loginPage.clickOnForgotYourPasswordLink();
 	}
 
 }

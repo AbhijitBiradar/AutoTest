@@ -22,6 +22,9 @@ public class LoginPage extends BasePage {
 	
 	@FindBy(id = "spanMessage")
 	private WebElement lbl_errorMessage;
+	
+	@FindBy(xpath ="//a[contains(text(),'Forgot your password?')]")
+	private WebElement lnk_ForgotYourPassword;
 		
 	@Autowired
 	private AutomationProperties properties;
@@ -67,5 +70,7 @@ public class LoginPage extends BasePage {
 		//driver.quit();
 	}
 	
-	
+	public void clickOnForgotYourPasswordLink() {
+		lnk_ForgotYourPassword.click();
+	}
 }

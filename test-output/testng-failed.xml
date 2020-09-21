@@ -5,7 +5,7 @@
     <classes>
       <class name="com.autotest.steps.CucumberRunner">
         <methods>
-          <include name="runScenario" invocation-numbers="0 1 2"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
         </methods>
