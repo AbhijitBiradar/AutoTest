@@ -1,6 +1,6 @@
 Feature: HRM Login
 
-	@Smoke @All
+	@Smoke @All 
   Scenario Outline: I want to login to HRM Appliation with valid credential
     Given I am on HRM Login page
     When I enter valid user name as "<UserName>"

@@ -1,7 +1,10 @@
 package com.autotest.steps;
 
 import org.openqa.selenium.WebDriver;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 
+import com.autotest.SpringContextConfiguration;
 import com.autotest.annotations.LazyAutowired;
 import com.autotest.config.AutomationProperties;
 import com.autotest.config.Configs;
@@ -10,7 +13,8 @@ import com.autotest.utils.PropertyUtil;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
-public class Hooks {
+
+public class Hooks{
 	@LazyAutowired
 	private WebDriver driver;
 
@@ -21,7 +25,8 @@ public class Hooks {
 	private Configs config;
 	
 	@LazyAutowired
-	PropertyUtil propertyUtil;
+	PropertyUtil propertyUtil;	
+	
 	
 	@Before
 	public void openBrowser() {				

@@ -1,24 +1,16 @@
 package com.autotest.steps;
 
-import java.io.IOException;
-
 import org.testng.Assert;
 
 import com.autotest.annotations.LazyAutowired;
 import com.autotest.pages.ForgotYourPasswordPage;
 import com.autotest.utils.ScreenshotUtil;
 
+import ccom.autotest.objects.Objects;
 import io.cucumber.java.en.Then;
 
-public class ForgotYourPasswordPageTest {
-
-	@LazyAutowired
-	private ForgotYourPasswordPage forgotYourPasswordPage;
+public class ForgotYourPasswordPageTest extends Objects{
 	
-	@LazyAutowired
-	private ScreenshotUtil screenshotUtil;
-	
-
 	@Then("I should navigate Forgot Your Password page")
 	public void i_should_navigate_Forgot_Your_Password_page() throws Exception {
 		screenshotUtil.takeScreenshot();

@@ -6,29 +6,18 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.testng.Assert;
 
 import com.autotest.annotations.LazyAutowired;
-import com.autotest.pages.ForgotYourPasswordPage;
 import com.autotest.pages.HomePage;
 import com.autotest.pages.LoginPage;
 import com.autotest.utils.ScreenshotUtil;
 
+import ccom.autotest.objects.Objects;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 @SpringBootTest(classes={com.autotest.SpringContextConfiguration.class})
-public class LoginPageTest {
-	@LazyAutowired
-	private LoginPage loginPage;
+public class LoginPageTest extends Objects{
 	
-	@LazyAutowired
-	private HomePage homePage;
-
-	@LazyAutowired
-	private ScreenshotUtil screenshotUtil;
-	
-	@LazyAutowired
-	private ForgotYourPasswordPage forgotYourPasswordPage;
-
 	@Given("I am on HRM Login page")
 	public void i_am_on_HRM_Login_page() throws IOException {		
 		loginPage.Launch();

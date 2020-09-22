@@ -6,6 +6,6 @@ import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import com.autotest.SpringContextConfiguration;
 
 @SpringBootTest(classes = {SpringContextConfiguration.class})
-public class BaseTest extends AbstractTestNGSpringContextTests{
+public class BaseTest  extends AbstractTestNGSpringContextTests{	
 	
 }
