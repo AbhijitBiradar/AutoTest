@@ -1,36 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="31796" started-at="2020-09-19T17:24:03 IST" finished-at="2020-09-19T17:24:35 IST">
+  <suite name="Surefire suite" duration-ms="82795" started-at="2020-09-26T19:32:27 IST" finished-at="2020-09-26T19:33:49 IST">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.autotest.steps.CucumberRunner@6ebc05a6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.autotest.steps.CucumberRunner@32709393]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="31796" started-at="2020-09-19T17:24:03 IST" finished-at="2020-09-19T17:24:35 IST">
+    <test name="Surefire test" duration-ms="82795" started-at="2020-09-26T19:32:27 IST" finished-at="2020-09-26T19:33:49 IST">
       <class name="com.autotest.steps.CucumberRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.autotest.steps.CucumberRunner@6ebc05a6]" name="setUpClass" is-config="true" duration-ms="716" started-at="2020-09-19T17:24:03 IST" finished-at="2020-09-19T17:24:04 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.autotest.steps.CucumberRunner@32709393]" name="setUpClass" is-config="true" duration-ms="1440" started-at="2020-09-26T19:32:27 IST" finished-at="2020-09-26T19:32:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.autotest.steps.CucumberRunner@6ebc05a6]" name="runScenario" duration-ms="30999" started-at="2020-09-19T17:24:04 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-19T17:24:35 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.autotest.steps.CucumberRunner@32709393]" name="runScenario" duration-ms="57885" started-at="2020-09-26T19:32:28 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-26T19:33:26 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA["I want to login to HRM Appliation with valid credential"]]>
+                <![CDATA["I want to navigate to verify Forgot Your Password Page"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["HRM Login"]]>
+                <![CDATA["HRM Forgot Your Password Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.autotest.steps.CucumberRunner@6ebc05a6]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-09-19T17:24:35 IST" finished-at="2020-09-19T17:24:35 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.autotest.steps.CucumberRunner@32709393]" name="runScenario" duration-ms="20234" started-at="2020-09-26T19:33:26 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-26T19:33:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I want to verify verify Forgot Your Password Page UI"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["HRM Forgot Your Password Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.autotest.steps.CucumberRunner@32709393]" name="tearDownClass" is-config="true" duration-ms="3144" started-at="2020-09-26T19:33:46 IST" finished-at="2020-09-26T19:33:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

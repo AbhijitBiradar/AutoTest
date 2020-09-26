@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.autotest.steps.CucumberRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.832 s - in com.autotest.steps.CucumberRunner
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 85.951 s - in com.autotest.steps.CucumberRunner

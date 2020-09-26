@@ -9,13 +9,14 @@ import io.cucumber.testng.CucumberOptions;
 		features = "src/test/resources/features", 
 		glue = "com.autotest.steps", 
 		strict = true,
-		tags = {"@All"}
+		tags = {"@ForgotYourPassword"},
+		plugin = {"json:target/cucumber.json"}
 )
 
 public class CucumberRunner extends AbstractTestNGCucumberTests {
 
 	@Override
-	@DataProvider(parallel = true)
+	@DataProvider(parallel = false)
 	public Object[][] scenarios() {
 		return super.scenarios();
 	}

@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.autotest.steps.CucumberRunner" hash-for-method="runScenario(&quot;I want to login to HRM Appliation with valid credential&quot;, &quot;HRM Login&quot;)">runScenario("I want to login to HRM Appliation with valid credential", "HRM Login")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.autotest.steps.CucumberRunner" hash-for-method="runScenario(&quot;I want to verify verify Forgot Your Password Page UI&quot;, &quot;HRM Forgot Your Password Page&quot;)">runScenario("I want to verify verify Forgot Your Password Page UI", "HRM Forgot Your Password Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.autotest.steps.CucumberRunner" hash-for-method="runScenario(&quot;I want to navigate to verify Forgot Your Password Page&quot;, &quot;HRM Forgot Your Password Page&quot;)">runScenario("I want to navigate to verify Forgot Your Password Page", "HRM Forgot Your Password Page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -125,10 +130,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;I want to login to HRM Appliation with valid credential&quot;, &quot;HRM Login&quot;)">
-                  </a> <!-- runScenario("I want to login to HRM Appliation with valid credential", "HRM Login") -->
+                  <a name="runScenario(&quot;I want to verify verify Forgot Your Password Page UI&quot;, &quot;HRM Forgot Your Password Page&quot;)">
+                  </a> <!-- runScenario("I want to verify verify Forgot Your Password Page UI", "HRM Forgot Your Password Page") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("I want to login to HRM Appliation with valid credential", "HRM Login")</span>
+                  <span class="parameters">("I want to verify verify Forgot Your Password Page UI", "HRM Forgot Your Password Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;I want to navigate to verify Forgot Your Password Page&quot;, &quot;HRM Forgot Your Password Page&quot;)">
+                  </a> <!-- runScenario("I want to navigate to verify Forgot Your Password Page", "HRM Forgot Your Password Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("I want to navigate to verify Forgot Your Password Page", "HRM Forgot Your Password Page")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -143,8 +158,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot; parallel=&quot;classes&quot;&gt;
-  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot; parallel=&quot;classes&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot; data-provider-thread-count=&quot;2&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.autotest.steps.CucumberRunner&quot;/&gt;
     &lt;/classes&gt;
@@ -194,16 +209,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.autotest.steps.CucumberRunner')
-data.setCell(0, 3, 30999);
+data.setCell(0, 3, 57885);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.autotest.steps.CucumberRunner')
+data.setCell(1, 3, 20234);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -235,12 +254,16 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("I want to login to HRM Appliation with valid credential", "HRM Login")</span>
-                <span class="method-start">745 ms</span>
+                <span class="method-name">runScenario("I want to navigate to verify Forgot Your Password Page", "HRM Forgot Your Password Page")</span>
+                <span class="method-start">1469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("I want to verify verify Forgot Your Password Page UI", "HRM Forgot Your Password Page")</span>
+                <span class="method-start">59370 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">31753 ms</span>
+                <span class="method-start">79604 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

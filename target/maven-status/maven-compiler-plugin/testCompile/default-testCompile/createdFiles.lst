@@ -1,4 +1,9 @@
+ccom\autotest\objects\UtilObjects.class
+com\autotest\steps\leave\ApplyLeavePageTest.class
 com\autotest\steps\LoginPageTest.class
 com\autotest\steps\BaseTest.class
+ccom\autotest\objects\PageObjects.class
 com\autotest\steps\CucumberRunner.class
+ccom\autotest\objects\Objects.class
 com\autotest\steps\Hooks.class
+com\autotest\steps\ForgotYourPasswordPageTest.class

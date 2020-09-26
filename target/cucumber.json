@@ -1,0 +1,221 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-26T14:02:38.572Z",
+        "before": [
+          {
+            "result": {
+              "duration": 39710000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.autotest.steps.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "I want to navigate to verify Forgot Your Password Page",
+        "description": "",
+        "id": "hrm-forgot-your-password-page;i-want-to-navigate-to-verify-forgot-your-password-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1560000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.autotest.steps.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3259000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on HRM Login page",
+            "match": {
+              "location": "com.autotest.steps.LoginPageTest.i_am_on_HRM_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2644000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Forgot Your Password link",
+            "match": {
+              "location": "com.autotest.steps.LoginPageTest.i_click_on_Forgot_Your_Password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 773000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should navigate Forgot Your Password page",
+            "match": {
+              "location": "com.autotest.steps.ForgotYourPasswordPageTest.i_should_navigate_Forgot_Your_Password_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@ForgotYourPassword"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T14:03:26.620Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12767000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.autotest.steps.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "I want to verify verify Forgot Your Password Page UI",
+        "description": "",
+        "id": "hrm-forgot-your-password-page;i-want-to-verify-verify-forgot-your-password-page-ui;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1230000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.autotest.steps.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 706000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on HRM Login page",
+            "match": {
+              "location": "com.autotest.steps.LoginPageTest.i_am_on_HRM_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2712000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on Forgot Your Password link",
+            "match": {
+              "location": "com.autotest.steps.LoginPageTest.i_click_on_Forgot_Your_Password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 612000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should navigate Forgot Your Password page",
+            "match": {
+              "location": "com.autotest.steps.ForgotYourPasswordPageTest.i_should_navigate_Forgot_Your_Password_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 611000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Orange HRM Username field label should display",
+            "match": {
+              "location": "com.autotest.steps.ForgotYourPasswordPageTest.orange_HRM_Username_field_label_should_display()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 480000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Orange HRM Username textbox should display",
+            "match": {
+              "location": "com.autotest.steps.ForgotYourPasswordPageTest.orange_HRM_Username_textbox_should_display()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 407000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Reset Password button should display",
+            "match": {
+              "location": "com.autotest.steps.ForgotYourPasswordPageTest.reset_Password_button_should_display()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 661000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Canel button should display",
+            "match": {
+              "location": "com.autotest.steps.ForgotYourPasswordPageTest.canel_button_should_display()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@ForgotYourPassword"
+          }
+        ]
+      }
+    ],
+    "name": "HRM Forgot Your Password Page",
+    "description": "",
+    "id": "hrm-forgot-your-password-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ForgotYourPassword.feature",
+    "tags": []
+  }
+]
