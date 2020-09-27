@@ -1,7 +1,7 @@
-[![GitHub issues](https://img.shields.io/github/issues/AbhijitBiradar/AutoTestNG)](https://github.com/AbhijitBiradar/AutoTestNG/issues)
-[![GitHub forks](https://img.shields.io/github/forks/AbhijitBiradar/AutoTestNG)](https://github.com/AbhijitBiradar/AutoTestNG/network)
-[![GitHub stars](https://img.shields.io/github/stars/AbhijitBiradar/AutoTestNG)](https://github.com/AbhijitBiradar/AutoTestNG/stargazers)
-[![GitHub license](https://img.shields.io/github/license/AbhijitBiradar/AutoTestNG)](https://github.com/AbhijitBiradar/AutoTestNG)
+[![GitHub issues](https://img.shields.io/github/issues/AbhijitBiradar/AutoTestNG)](https://github.com/AbhijitBiradar/AutoTest/issues)
+[![GitHub forks](https://img.shields.io/github/forks/AbhijitBiradar/AutoTestNG)](https://github.com/AbhijitBiradar/AutoTest/network)
+[![GitHub stars](https://img.shields.io/github/stars/AbhijitBiradar/AutoTestNG)](https://github.com/AbhijitBiradar/AutoTest/stargazers)
+[![GitHub license](https://img.shields.io/github/license/AbhijitBiradar/AutoTestNG)](https://github.com/AbhijitBiradar/AutoTest)
 
 # Selenium SpringBoot Automation Framework
 
@@ -36,7 +36,7 @@ You will required below external libraries to implement this framework.
 
 * [Cucumber](https://cucumber.io/) - library used to support Behavior-Driven Development (BDD).
 * [Selenium WebDriver](https://www.selenium.dev/documentation/en/webdriver/) - drives a browser natively, as a real user would, either locally or on remote machines.
-* [Hamcrest](http://hamcrest.org/JavaHamcrest/tutorial) - a framework for writing matcher objects allowing ‘match’ rules to be defined declaratively.
+* [Hamcrest](http://hamcrest.org/JavaHamcrest/tutorial) - a framework for writing matcher objects allowing â€˜matchâ€™ rules to be defined declaratively.
 
 ## Usage
 
