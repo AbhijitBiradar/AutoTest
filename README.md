@@ -1,7 +1,7 @@
-[![GitHub issues](https://img.shields.io/github/issues/AbhijitBiradar/AutoTestNG)](https://github.com/AbhijitBiradar/AutoTest/issues)
-[![GitHub forks](https://img.shields.io/github/forks/AbhijitBiradar/AutoTestNG)](https://github.com/AbhijitBiradar/AutoTest/network)
-[![GitHub stars](https://img.shields.io/github/stars/AbhijitBiradar/AutoTestNG)](https://github.com/AbhijitBiradar/AutoTest/stargazers)
-[![GitHub license](https://img.shields.io/github/license/AbhijitBiradar/AutoTestNG)](https://github.com/AbhijitBiradar/AutoTest)
+[![GitHub issues](https://img.shields.io/github/issues/AbhijitBiradar/AutoTest)](https://github.com/AbhijitBiradar/AutoTest/issues)
+[![GitHub forks](https://img.shields.io/github/forks/AbhijitBiradar/AutoTest)](https://github.com/AbhijitBiradar/AutoTest/network)
+[![GitHub stars](https://img.shields.io/github/stars/AbhijitBiradar/AutoTest)](https://github.com/AbhijitBiradar/AutoTest/stargazers)
+[![GitHub license](https://img.shields.io/github/license/AbhijitBiradar/AutoTest)](https://github.com/AbhijitBiradar/AutoTest)
 
 # Selenium SpringBoot Automation Framework
 
