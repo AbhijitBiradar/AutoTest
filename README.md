@@ -1,8 +1,11 @@
+![SpringLogo](https://user-images.githubusercontent.com/37665481/115943353-0b506080-a4cd-11eb-9a07-6616831b0388.png)
+
 [![GitHub release](https://img.shields.io/github/v/release/AbhijitBiradar/AutoTest)](https://github.com/AbhijitBiradar/AutoTest/releases)
 [![GitHub issues](https://img.shields.io/github/issues/AbhijitBiradar/AutoTest)](https://github.com/AbhijitBiradar/AutoTest/issues)
 [![GitHub forks](https://img.shields.io/github/forks/AbhijitBiradar/AutoTest)](https://github.com/AbhijitBiradar/AutoTest/network)
 [![GitHub stars](https://img.shields.io/github/stars/AbhijitBiradar/AutoTest)](https://github.com/AbhijitBiradar/AutoTest/stargazers)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
 
 
 # Selenium SpringBoot Automation Framework
